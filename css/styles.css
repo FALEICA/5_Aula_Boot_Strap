@@ -1,26 +1,27 @@
 /*.........Estilos Gerais..........*/
-*{
+* {
     color: #25282E;
 }
 
 
-a,i{
-transition: .5s;
-text-decoration: none;
+a,
+i {
+    transition: .5s;
+    text-decoration: none;
 
 }
 
-.secondary-color{
+.secondary-color {
     color: #555;
 
 }
 
-.center-image{
+.center-image {
     background-size: cover;
     background-position: center;
 }
 
-.btn{
+.btn {
     text-decoration: none;
     background-color: #25282E;
     color: #fff;
@@ -29,7 +30,7 @@ text-decoration: none;
 }
 
 
-.btn:hover{
+.btn:hover {
     background-color: #333;
     color: #FFF;
 }
@@ -50,10 +51,10 @@ text-decoration: none;
 
 
 /* HEADER */
-#header { 
+#header {
     text-align: center;
     padding: 20px;
-    border-bottom: 1px solid #ccc;   
+    border-bottom: 1px solid #ccc;
 
 }
 
@@ -62,13 +63,13 @@ text-decoration: none;
 
 }
 
-#logo-container{
+#logo-container {
     display: flex;
     justify-content: center;
 
 }
 
-#logo{
+#logo {
     width: 40px;
     margin-right: 15px;
 }
@@ -87,7 +88,7 @@ text-decoration: none;
 
 
 /* NAVBAR */
-#navbar{
+#navbar {
     padding: 10px;
     margin: 10px auto;
 }
@@ -97,7 +98,7 @@ text-decoration: none;
     color: #444;
 }
 
-#navbar a:hover{
+#navbar a:hover {
     color: gold;
 }
 
@@ -117,7 +118,7 @@ text-decoration: none;
 
 
 /* MAIN IMAGE */
-.main-image{
+.main-image {
     height: 400px;
     background-image: url('../img/g_1.jpg');
     margin-bottom: 30px;
@@ -125,7 +126,7 @@ text-decoration: none;
 }
 
 
-.main-image-info{
+.main-image-info {
     background-color: #fff;
     padding: 25px;
     position: absolute;
@@ -134,3 +135,52 @@ text-decoration: none;
 }
 
 
+
+
+
+
+
+
+
+/* GALLERY */
+#img1 {
+    background-image: url('../img/g_2.jpg');
+
+}
+
+#img2 {
+    background-image: url('../img/g_3.jpg');
+
+}
+
+#img3 {
+    background-image: url('../img/g_4.jpg');
+
+}
+
+#img4 {
+    background-image: url('../img/g_5.jpg');
+
+}
+
+#img5 {
+    background-image: url('../img/g_6.jpg');
+
+}
+
+#gallery-container h1 {
+    text-align: center;
+
+}
+
+#gallery-container h1,
+#gallery-container .col-md-6,
+#gallery-container .col-12 {
+    margin-bottom: 50px;
+}
+
+.small-image-container {
+    height: 250px;
+    margin-bottom: 20px;
+
+}
